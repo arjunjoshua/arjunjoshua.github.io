@@ -467,18 +467,19 @@ header > nav > ul > li > a {
 }
 
 .center-content h3 {
-    font-size: 1.5em; 
-    color: #333;   
+    font-size: 18px;
+	color: #111;
+	font-weight: 600;	
+	letter-spacing: 2px;
+	font-family: 'Karla', sans-serif;
+	text-decoration: underline;  
 }
 
 .center-content p {
-    font-size: 1em;  
-    color: #666;      
-    line-height: 1.5;
-}
-
-.center-content a {
-    color: #007BFF; /* Adjust as necessary */
+    font-size: 14px;
+	color: #111;	
+	letter-spacing: 2px;
+    font-family: 'Inconsolata', monospace;;
 }
 
 

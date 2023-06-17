@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Portfolio</title>
+  <meta 
+  name="viewport" content="width=device-width, initial-scale=1.0">	
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Inconsolata|Indie+Flower|Karla|Open+Sans+Condensed:300|Roboto+Mono|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+  <main>
+	<section class="project-vid">
+		<div class="wrapper">
+			<h2 class="animated rubberBand">Pokemon Go dex (work-in-progress)</h2>
+			<video src="realworld.mp4" poster="login.png" controls></video>
+			<article>
+				<h3>Abstract</h3>
+				<div>
+				<p>As a pet project, I'm currently working on building an interactive pokedex for the mobile game Pokemon Go. The app currently displays all pokemon available in the game, their typing and the ability to check which pokemon have their shiny form available, which of course displays the shiny sprite. I also plan to add more information such as moves learned and evolution information for each pokemon.</p>
+				<p><strong>For source code, click <a href="https://github.com/arjunjoshua/Pokemon-go-dex">here</a>.</strong></p>
+			</div>	
+			</article>
+		</div>		
+	</section>
+	  </main>
+	  <div id="footer"></div>
+	<script>
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html");
+    });
+  </script>  	
+	  	
+</body>
+</html>		

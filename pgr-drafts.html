@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Portfolio</title>
+  <meta 
+  name="viewport" content="width=device-width, initial-scale=1.0">	
+  <link rel="stylesheet" type="text/css" href="portfolio.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Inconsolata|Indie+Flower|Karla|Open+Sans+Condensed:300|Roboto+Mono|ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+  <link  rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.4/semantic.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="header"></div>
+  <main>
+	<section class="project-vid">
+		<div class="wrapper">
+			<h2 class="animated rubberBand">Pokemon Draft League (work-in-progress)</h2>
+            <h3 class="animated rubberBand">Freelance project</h3>
+			<video src="pgr-drafts.mp4" controls></video>
+			<article>
+				<h3>Abstract</h3>
+				<div>
+				<p>I was hired by the PoGo Raids Discord server as a freelance developer to create a site for their draft league. PoGo Raids hosts a draft league every three months, and my website is designed to host these tournaments, displaying member's teams and scoreboards. The website allows trainers to customize their teams and input results from their matches, although the latter is still in development. </p>
+				<p>The project is built using React on Typescript, HTML and CSS for styling on the frontend. On the backend, I built an API hosted on Vercel that handles the backend functionality and database. The database is implemented using MongoDB, hosted on Atlas.</p>
+				<p><strong>Click <a href="https://pgr-drafts.netlify.app">here</a> to visit the site. For the soure code, click <a href="https://github.com/arjunjoshua/PGR_Drafts">here</a> (frontend) or <a href="https://github.com/arjunjoshua/pgr-draft-backend">here</a> (backend).</strong></p>
+			</div>	
+			</article>
+		</div>		
+	</section>
+	  </main>
+	  <div id="footer"></div>
+	<script>
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html");
+    });
+  </script>  	
+	  	
+</body>
+</html>		

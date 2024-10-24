@@ -1,0 +1,28 @@
+{
+    "experiences": [
+        {
+            "title": "Full Stack Developer",
+            "subtitle": "Arrow Electricals",
+            "workType": "Full-time",
+            "workDescription": [
+                "Engineered a headless front end for the e-commerce division using Vue.js and Nuxt.js, boosting page speed performance by 35% and elevating Google indexing rank by 40%",
+                "Led the migration from a Stencil framework front end to a headless system, ensuring a seamless transition with zero downtime and integrated BigCommerce's REST API to efficiently manage product and order data, enhancing the overall user experience.",
+                "Migrated over 15,000 products and 50,000 records to ElasticSearch, significantly improving search functionality and data retrieval times.",
+                "Set up server-side scripts to sync product data using both API calls and web scrapers.",
+                "Optimized Nginx server configurations, including setting up compression, route handling, and redirects to improve server performance and security."
+            ],
+            "dateText": "12/2023 - Present"
+        },
+        {
+            "title": "Junior Developer",
+            "subtitle": "Wipro",
+            "workType": "Full-time",
+            "workDescription": [
+                "Project: Alcon Inc",
+                "Worked on the Web Development team where I got the opportunity to work on a variety of technologies like React, React Native, Node and Python",
+                "Was part of the team that created a system to migrate 15000+ mobile devices from Apple Airwatch to Microsoft Intune."
+            ],
+            "dateText": "05/2021 - 07/2022"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "education":[
+        {
+            "title": "September 2022 - September 2023",
+            "cardTitle": "MSc Advanced Computer Science",
+            "cardSubtitle":"University of Sussex",
+            "cardDetailedText": "Key modules: Web Applications and Services, Software Engineering, Engineering Reliable and Scalable Software, E-Commerce, Machine Learning",
+            "icon" : {
+                "src": "images/education/uos_icon.jpeg"
+            }
+        },
+        {
+            "title": "June 2017 - July 2020",
+            "cardTitle": "BSc Computer Applications",
+            "cardSubtitle":"CHRIST University, Bangalore",
+            "cardDetailedText": "Key modules: Data Structures and Algorithms, Mobile Applications, Web Development, Software Engineering, Database Management Systems",
+            "icon" : {
+                "src": "images/education/christ_icon.png"
+            }
+        }
+    ]
+}

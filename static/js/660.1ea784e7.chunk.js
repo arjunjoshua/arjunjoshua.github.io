@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkarjunjoshua_portfolio=self.webpackChunkarjunjoshua_portfolio||[]).push([[660],{7660:(e,s,a)=>{a.r(s),a.d(s,{default:()=>r});a(5043),a(4050);var o=a(579);const r=function(e){const{title:s}=e;return(0,o.jsx)("div",{className:"header",children:s})}}}]);
+//# sourceMappingURL=660.1ea784e7.chunk.js.map

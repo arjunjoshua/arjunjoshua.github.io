@@ -1,130 +1,172 @@
 {
-    "projects" : [
+  "projects": [
+    {
+      "image": "images/projects/Grassroots.webp",
+      "title": "Grassroots",
+      "bodyText": "- For my MSc dissertation, I created a mobile app that attempts to solve a real-world problem in the youth football community (UK).\n-  Grassroots provides a platform for youth football coaches to easily schedule friendly games for their teams.\n- The app allows coaches to host or search for available games in their teams' age and skill categories.\n- The project was suggested and backed by coaches of the England Youth Football Association (Sussex and Kent counties).",
+      "links": [
         {
-            "image" : "images/projects/bindicator.png",
-            "title": "Bindicator",
-            "bodyText": "- Script that navigates to a council website, enters the required information and then stores the bin collection dates in variables. \n - Those variables are then saved as a .json and sent to slack via a POST method using a webhook. \n - The process of receiving messages periodically was automated by creating a cron job.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/bindicator"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "Puppeteer",
-                "Shell",
-                "Webhook"
-            ]
+          "text": "GitHub - Frontend",
+          "href": "https://github.com/arjunjoshua/grassroots"
         },
         {
-            "image" : "images/projects/nginx.png",
-            "title": "Nginx Streaming",
-            "bodyText": "- Simple web app for TV/STB that utilises an open source player to load in a manifest stream.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/nginx_project"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "nginx",
-                "HLS",
-                "DASH"
-            ]
+          "text": "GitHub - Backend",
+          "href": "https://github.com/arjunjoshua/grassroots-backend"
         },
         {
-            "image" : "images/projects/manga_bot.png",
-            "title": "Manga Bot",
-            "bodyText": "- Script to convert online manga to PDF and send it to me on Slack",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/manga-bot"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "Puppeteer",
-                "Shell",
-                "Webhook"
-            ]
-        },
-        {
-            "image" : "images/projects/friends.png",
-            "title": "Puppeteer - Friends Easter Eggs",
-            "bodyText": "- The main purpose of this project was to gain a basic understanding of puppeteer. \n - Navigate to each member of the cast of Friends(1994) on Google and then display the easter eggs related to each one of them.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/friendsEasterEggs"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "Puppeteer"
-            ]
-        },
-        {
-            "image" : "images/projects/nba_scraper.png",
-            "title": "NBA Web Scraper",
-            "bodyText": "- Web scraping is the process of extracting and restructuring data from a website, usually to allow for some kind of eventual analysis. \n - Aim of this project is to scrape NBA game data which can then further be used for various other projects.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/webScraperNBA"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Jupyter Notebook",
-                "Beautiful Soup",
-                "Pandas",
-                "Web Scraping"
-            ]
-        },
-        {
-            "image" : "images/projects/predictive_modelling.jpg",
-            "title": "Predictive Modelling for NBA Seeds",
-            "bodyText": "- This research was conducted in partial fulfilment for the degree of Master of Computer Science. \n - I sought to analyse the widely available National Basketball Association (NBA) statistics and attempt to predict the final seeds of each team at the end of the regular season.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/MScDissertation"
-                },
-                {
-                    "text": "Video",
-                    "href": "https://youtu.be/NL_qgGnUBic"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Logistic Regression",
-                "Elo",
-                "Random Forrest",
-                "Pandas",
-                "Sklearn",
-                "Matplotlib"
-            ]
-        },
-        {
-            "image" : "images/projects/inbound.png",
-            "title": "Inbound",
-            "bodyText": "- Local basketball matches in Bangalore are only followed by those who are aware of the timings as well as the locations of these matches. \n - This results in enthusiasts missing out on opportunities to watch local matches. The purpose of the system is to create an android application that will help network all members of the basketball community in Bangalore.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/thomas-abraham13/Inbound"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android Studio",
-                "Mobile Application"
-            ]
+          "text": "Demo",
+          "href": "https://www.youtube.com/watch?v=ueFAea3vACQ"
         }
-    ]
+      ],
+      "tags": [
+        "React Native",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "image": "images/projects/TravelBuddy.webp",
+      "title": "TravelBuddy",
+      "bodyText": "- Social Media platform for travellers to share their experiences and connect with other travellers.\n- Users can create posts, like and comment on posts, follow other users and chat with them.\n - Users can also create an itinerary for their trip and invite other users to join in.",
+      "links": [
+        {
+            "text": "Website",
+            "href": "https://travelbuddy.jscloud.in/login"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/JerrySJoseph/Travelbuddy-v2"
+        },
+        {
+          "text": "Demo",
+          "href": "https://youtu.be/2gJiDVt2WQc"
+        }
+      ],
+      "tags": [
+        "TypeScript",
+        "Next.js",
+        "CSS",
+        "Firestore",
+        "NoSQL",
+        "Rest API"
+      ]
+    },
+    {
+      "image": "images/projects/PGR_Drafts.png",
+      "title": "Pokemon Draft League",
+      "bodyText": "- I was hired by the PoGo Raids Discord server as a freelance developer to create a site to host their draft league tournaments, displaying member's teams and scoreboards.\n- The website allows trainers to customize their teams and input results from their matches, although the latter is still in development.",
+      "links": [
+        {
+          "text": "Website",
+          "href": "https://pgr-drafts.netlify.app/"
+        },
+        {
+          "text": "GitHub - Frontend",
+          "href": "https://github.com/arjunjoshua/PGR_Drafts"
+        },
+        {
+          "text": "GitHub - Backend",
+          "href": "https://github.com/arjunjoshua/pgr-draft-backend"
+        },
+        {
+          "text": "Demo",
+          "href": "https://youtu.be/WGBfHggloHI"
+        }
+      ],
+      "tags": [
+        "TypeScript",
+        "React",
+        "CSS",
+        "Node.js",
+        "Express",
+        "Rest API",
+        "MongoDB"
+      ]
+    },
+    {
+      "image": "images/projects/PaymentApp.webp",
+      "title": "Payment App",
+      "bodyText": "- A secure online application that enable users to make payments and request payments from other users\n- It includes a notification system for requests and a page to look at transaction history.\n-I created this application as part of my second semester.\n- The application is equipped with protection against CSRF, XSS and SQL Injection.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/arjunjoshua/Payment_Application"
+        },
+        {
+          "text": "Demo",
+          "href": "https://youtu.be/slYEoTAm7sE"
+        }
+      ],
+      "tags": [
+        "Python",
+        "Django",
+        "Cyber Security",
+        "SQLite"
+      ]
+    },
+    {
+      "image": "images/projects/PokemonDex.jpg",
+      "title": "Pokemon Go Dex",
+      "bodyText": "- As a pet project, I worked building an interactive pokedex for the mobile game Pokemon Go.\n- The app currently displays all pokemon available in the game, their typing and the ability to check which pokemon have their shiny form available, which of course displays the shiny sprite.\n- I also plan to add more information such as moves learned and evolution information for each pokemon, at a later date.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/arjunjoshua/Pokemon-go-dex"
+        },
+        {
+          "text": "Demo",
+          "href": "https://youtu.be/hxwUR06LyS8"
+        }
+      ],
+      "tags": [
+        "React",
+        "TypeScript",
+        "CSS",
+        "REST API"
+      ]
+    },
+    {
+      "image": "images/projects/2Dand3DPuzzles.webp",
+      "title": "2D and 3D Puzzle Algorithms",
+      "bodyText": "- As part of my Software Engineering module, my team and I worked on solving various popular 2D and 3D puzzles, including N-Queens and a polysphere puzzle (2D and 3D).",
+      "links": [
+        {
+          "text": "Website",
+          "href": "https://mini-batch.github.io/group9-ase-project/"
+        },
+        {
+          "text": "GitHub",
+          "href": "https://github.com/Dave69178/group9-ase-project"
+        },
+        {
+          "text": "Demo",
+          "href": "https://youtu.be/Y9ekmc3aaxc"
+        }
+      ],
+      "tags": [
+        "React",
+        "JavScript",
+        "CSS",
+        "Data Structures and Algorithms"
+      ]
+    },
+    {
+      "image": "images/projects/inbound.png",
+      "title": "Inbound",
+      "bodyText": "- Local basketball matches in Bangalore are only followed by those who are aware of the timings as well as the locations of these matches. \n - This results in enthusiasts missing out on opportunities to watch local matches. The purpose of the system is to create an android application that will help network all members of the basketball community in Bangalore.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/thomas-abraham13/Inbound"
+        }
+      ],
+      "tags": [
+        "Java",
+        "Android Studio",
+        "Mobile Application"
+      ]
+    }
+  ]
 }

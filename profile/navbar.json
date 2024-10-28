@@ -26,6 +26,14 @@
             "href": "/experience"
         },
         {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "Contact",
+            "href": "/contact"
+        },
+        {
             "title": "Resume",
             "href": "https://drive.google.com/file/d/1zg_kSy6CLBYWqc1w4IbcDV7JPfO-rl3B/view?usp=sharing",
             "type": "link"
